@@ -5,6 +5,10 @@ package %w[tree ansible] do
   ignore_failure true
 end
 
+package 'emacs' do 
+  action :install 
+done
+
 
 
 
